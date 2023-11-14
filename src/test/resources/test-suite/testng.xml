@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Demo Project Smoke Test Suite" parallel="classes" thread-count="2" >
+    <test name="Chrome browser tests" >
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="com.demo.tests.DemoTests"/>
+<!--            <class name="com.demo.tests.DemoTests2"/>-->
+        </classes>
+    </test>
+
+    <test name="Firefox browser tests" >
+        <parameter name="browser" value="Firefox"/>
+<!--        <groups>-->
+<!--                <define name = "Smoke Tests">-->
+<!--                    <include name = "smoke"></include>-->
+<!--                    <include name = "web"></include>-->
+<!--                    <include name = "regression"></include>-->
+<!--                </define>-->
+<!--                <run>-->
+<!--                    <include name = "smoke"></include>-->
+<!--                </run>-->
+<!--        </groups>-->
+        <parameter name="username" value="test@123"/>
+        <parameter name="password" value="123456"/>
+        <classes>
+            <class name="com.demo.tests.DemoTests"/>
+        </classes>
+
+    </test>
+
+</suite>

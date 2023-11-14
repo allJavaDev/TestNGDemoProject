@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-13T21:31:32 EST" name="TestNG Demo Project Smoke Test Suite" finished-at="2023-11-13T21:31:33 EST" duration-ms="148">
+    <groups>
+      <group name="web">
+        <method signature="DemoTests.test1()[pri:0, instance:com.demo.tests.DemoTests@7c1e2a9e]" name="test1" class="com.demo.tests.DemoTests"/>
+      </group> <!-- web -->
+      <group name="regression">
+        <method signature="DemoTests.test1()[pri:0, instance:com.demo.tests.DemoTests@7c1e2a9e]" name="test1" class="com.demo.tests.DemoTests"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="DemoTests.test1()[pri:0, instance:com.demo.tests.DemoTests@7c1e2a9e]" name="test1" class="com.demo.tests.DemoTests"/>
+        <method signature="DemoTests.test2()[pri:0, instance:com.demo.tests.DemoTests@7c1e2a9e]" name="test2" class="com.demo.tests.DemoTests"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="DemoTests.test1()[pri:0, instance:com.demo.tests.DemoTests@7c1e2a9e]" name="test1" class="com.demo.tests.DemoTests"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2023-11-13T21:31:32 EST" name="Chrome browser tests" finished-at="2023-11-13T21:31:33 EST" duration-ms="148">
+      <class name="com.demo.tests.DemoTests">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.demo.tests.DemoTests@7c1e2a9e]" started-at="2023-11-13T21:31:32 EST" name="beforeSuite" finished-at="2023-11-13T21:31:32 EST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.demo.tests.DemoTests@7c1e2a9e]" started-at="2023-11-13T21:31:33 EST" name="beforeTest" finished-at="2023-11-13T21:31:33 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.demo.tests.DemoTests@7c1e2a9e]" started-at="2023-11-13T21:31:33 EST" name="beforeClass" finished-at="2023-11-13T21:31:33 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demo.tests.DemoTests@7c1e2a9e]" started-at="2023-11-13T21:31:33 EST" name="setUp" finished-at="2023-11-13T21:31:33 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test1()[pri:0, instance:com.demo.tests.DemoTests@7c1e2a9e]" started-at="2023-11-13T21:31:33 EST" name="test1" finished-at="2023-11-13T21:31:33 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demo.tests.DemoTests@7c1e2a9e]" started-at="2023-11-13T21:31:33 EST" name="tearDown" finished-at="2023-11-13T21:31:33 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demo.tests.DemoTests@7c1e2a9e]" started-at="2023-11-13T21:31:33 EST" name="setUp" finished-at="2023-11-13T21:31:33 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test2()[pri:0, instance:com.demo.tests.DemoTests@7c1e2a9e]" started-at="2023-11-13T21:31:33 EST" name="test2" finished-at="2023-11-13T21:31:33 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demo.tests.DemoTests@7c1e2a9e]" started-at="2023-11-13T21:31:33 EST" name="tearDown" finished-at="2023-11-13T21:31:33 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.demo.tests.DemoTests@7c1e2a9e]" started-at="2023-11-13T21:31:33 EST" name="afterClass" finished-at="2023-11-13T21:31:33 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.demo.tests.DemoTests@7c1e2a9e]" started-at="2023-11-13T21:31:33 EST" name="afterTest" finished-at="2023-11-13T21:31:33 EST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.demo.tests.DemoTests@7c1e2a9e]" started-at="2023-11-13T21:31:33 EST" name="afterSuite" finished-at="2023-11-13T21:31:33 EST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.demo.tests.DemoTests -->
+    </test> <!-- Chrome browser tests -->
+  </suite> <!-- TestNG Demo Project Smoke Test Suite -->
+</testng-results>
