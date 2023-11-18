@@ -7,18 +7,18 @@ public class DemoTests extends TestBase {
 
     HomePage homePage = new HomePage();
 
-    @Test(groups = {"smoke", "regression", "sanity", "web"})
+    @Test(groups = {"smoke", "regression", "sanity", "web"}, priority = 2)
     public void test1() {
         homePage.launch();
         System.out.println("Test -1");
     }
 
-    @Test(groups = {"smoke"})
+    @Test(groups = {"smoke"}, priority = 1)
     public void test2() {
         System.out.println("Test -2");
     }
 
-    @Test(enabled = false, groups = {"smoke"}, dependsOnMethods = {"test2"})
+    @Test(enabled = false, groups = {"smoke"}, dependsOnMethods = {"test2"}, priority = 1)
     public void test3() {
         System.out.println("Test -3");
     }
